@@ -1,7 +1,7 @@
 // Ignite plugin for RadioButtons
 // ----------------------------------------------------------------------------
 
-const NPM_MODULE_NAME = 'react-native-MODULENAME'
+const NPM_MODULE_NAME = 'react-native-radio-buttons'
 // const PLUGIN_PATH = __dirname
 // const APP_PATH = process.cwd()
 const EXAMPLE_FILE = 'RadioButtonsExample.js'
