@@ -1,8 +1,7 @@
-const test = require('ava')
 const sinon = require('sinon')
 const plugin = require('../plugin')
 
-test('removes RadioButtons', async t => {
+test('removes RadioButtons', async () => {
   const removeModule = sinon.spy()
   const removePluginComponentExample = sinon.spy()
 
@@ -12,6 +11,6 @@ test('removes RadioButtons', async t => {
 
   await plugin.remove(context)
 
-  t.true(removeModule.calledWith('react-native-MODULENAME', { unlink: true }))
-  t.true(removePluginComponentExample.calledWith('RadioButtonsExample.js'))
+  expect(removeModule.calledWith('react-native-radio-buttons', { unlink: true })).toEqual(true)
+  expect(removePluginComponentExample.calledWith('RadioButtonsExample.js')).toEqual(true)
 })
