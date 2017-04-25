@@ -1,4 +1,4 @@
-# Ignite Maps Plugin
+# Ignite Radio Buttons Plugin
 
 This plugin adds [react-native-radio-buttons](https://github.com/ArnaudRinquin/react-native-radio-buttons)
 to your [Ignite](https://github.com/infinitered/ignite) React Native project and provides an example of its usage.
